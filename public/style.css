@@ -1,0 +1,73 @@
+/* Background and Typography */
+body {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered container with background and shadow */
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+/* Header styling */
+h1 {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Input field styling */
+.form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding: 10px 20px;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #5a67d8;
+    border: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #4c51bf;
+}
+
+/* Result box styling */
+.result-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styling */
+.text-danger {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Location and forecast text */
+h4 {
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+p {
+    font-size: 1.1em;
+    color: #f0f0f0;
+}
